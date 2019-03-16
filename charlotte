@@ -1,0 +1,8 @@
+<!-----Beging Partner section------->
+<h1>Partners</h1>
+<img src="collegeboard.jpg>
+<img src="intel.jpg">
+<img src="microsoft.jpg">
+<img src="ibm.jpg">
+<button class="btn btn-lg button1">Learn More</button>
+<!-----End Partner Section----------->
