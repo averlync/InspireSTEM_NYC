@@ -4,45 +4,59 @@
         <!--Bootstrap Css-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!--Links-->
-        <link rel="stylesheet" type="text/css" href="style.css">>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <!-- Google Fonts------>
-        <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
         <!-- Font Awesome Link --->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
     <body>
         <!-- nav bar ------------>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">InspireSTEM</a>
+          <a class="navbar-brand" href="index.html"> InspireSTEM</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Services<span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">About Us</a>
-              <a class="nav-item nav-link" href="#">Team</a>
-              <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Get Involved</a>
-              <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+              <a class="nav-item nav-link active"href="#">Services<span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="index.html #aboutus">About Us</a>
+              <a class="nav-item nav-link" href="index.html #team">Team</a>
+              <a class="nav-item nav-link" href="index.html #getinvolved" tabindex="-1" aria-disabled="true">Get Involved</a>
+              <a class="nav-item nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact Us</a>
             </div>
           </div>
         </nav>
         <!-----End Of nav bar------------------>
-        <!--begin About Us section-------------->
+        <!--begin Header section-------------->
+        
         <header class="d-flex align-items-center">
             <div class="container">
-                <h1>InspireSTEM NYC</h1> 
-                <p>We are dedicated to sparking interest in students to explore the world of technology. We provide a large range of workshops and classes that enourage students to learn computer science and engineering.</p>
-                <button class="btn btn-lg btn-primary">Learn More</button>
+                <h1> InspireSTEM NYC </h1> 
             </div>
+            
         </header>
-        <!--end About Us section---------------->
+        <!--end Header section---------------->
+        <!--begin About Us section------------>
+        <section class="aboutus container-fluid align-items-center" id="aboutus">
+            <h1>About Us</h1>
+            <div class="container">
+                 <p>We are dedicated to sparking interest in students to explore the world of technology.</p>
+                 <p>We provide a large range of workshops and classes that enourage students to learn computer science and engineering.</p>
+                 <a href="services.html" class="btn btn-lg btn-primary">Learn More</a>
+                 <br></br>
+                 <hr></hr>
+            </div>
+        </section>
+        <!--end About Us section--------------> 
          <!--begin Results------->
-    <section class="results container">
-        <hr></hr>
+    <section class="results container-fluid">
         <!--beginning of grid section----->
         <!--first row------->
+        <h1>Our Results</h1>
         <div class="row">
+                
+        
             <div class="col-md-3">
                <h1>4 Million</h1>
                 <span><strong>Students have gotten into STEM since involvement programs</strong></span>
@@ -60,12 +74,13 @@
                 <span><strong>Students got into STEM focused Universities</strong></span>
             </div>
         </div>
+       
     </section>
     <!--end Results section------->
     
     <!-- begin Get Involved Section ----->
-    <section class="getinvolved">
-        <div class="container">
+    <section class="getinvolved container-fluid" id="getinvolved">
+        
             <h1>Get Involved</h1>
             <p>Help encourage STEM by...</p>
             <div class="row">
@@ -75,7 +90,7 @@
                         <i class="fas fa-pen"></i>
                         <h3>Sign Up</h3>
                         <p>Participate in a workshop or class</p>
-                        <button class="btn btn-lg btn-success">Apply</button>
+                         <a href="signupsheet.html" class="btn btn-lg btn-success">Apply</button></a>
                     </div>
                 </div>
             <!-- second panel ----------->
@@ -83,7 +98,7 @@
                     <div class="options">
                         <i class="fas fa-hands-helping"></i>
                         <h3>Help Out</h3>
-                        <p>Be an instructor or help out in other roles</p>
+                        <p>Be an instructor or volunteer</p>
                         <button class="btn btn-lg btn-success">Volunteer</button>
                     </div>
                 </div>
@@ -97,52 +112,65 @@
                     </div>
                 </div>
             </div>
-        </div>
+    
     </section>
     <!-- end Get Involved Section ------->
     
     <!--begin team section------>
-    <section>
-        <div class="team container">
-            <head>O</head>
+    <section class="team container" id="team">
+              <h1>Team</h1>
             <div class="row">
                 <!--first panel------>
-                <div class="col-md-4">
+                <div class="col-lg-3">
                     <img src="hannahtipton.jpg">
                     <h2>Hanna Tipton</h2>
-                    <h3>CEO</h3>
+                    <h3>Founder</h3>
+                    <p>Instagram: hanna-tipton8</p>
+                    <p>Email me at: htipton8@inspirestemnyc.com</p>
                 </div>
                 <!--second panel------>
-                <div class="col-md-4">
+                <div class="col-lg-3">
                     <img src="avril.jpg">
                     <h2>Avril Sheene</h2>
-                    <h3>CEO</h3>
+                    <h3>CFO</h3>
+                    <p>Instagram: avril.sheene7</p>
+                    <p>Email me at: asheene7@inspirestemnyc.com</p>
                 </div>
                 <!--third panel------->
-                <div class="col-md-4">
+                <div class="col-lg-3">
                     <img src="Atheena.jpg">
                     <h2>Athena Xander</h2>
                     <h3>CEO</h3>
-                    
+                    <p>Instagram: athena_xander15</p>
+                    <p>Email me at: axander15@inspirestemnyc.com</p>
+                </div>
+                <!--fourth panel------->
+                <div class="col-lg-3">
+                    <img src="Mariah.jpg">
+                    <h2>Mariah Landon</h2>
+                    <h3>COO</h3>
+                    <p>Instagram: mariahlandon20</p>
+                    <p>Email me at: mariahlandon20@inspirestemnyc.com</p>
                 </div>
             </div>
-        </div>
+    
     </section>
     <!--end team section------>
   <!-----Beging Partner section------->
   <section class="align-items-center">
       <div class="partner container">
-       <h4>Partners</h4>
+       <h1>Partners</h1>
         <img src="collegeboard.jpg">
         <img src="intel.jpg">
         <img src="microsoft.jpg">
         <img src="ibm.jpg">
-        <button class="btn btn-lg button1">Learn More</button> 
+        
+        <a href="learnmore.html" class="btn btn-lg button1">Learn More</a>
         </div>
     </section>
 <!----End Partner Section-------------->
 <!--begin contact section----->
-    <section class="contact container">
+    <section class="contact container" id="contact">
         <h1>Contact</h1>
         <div class="row">
             <div class="col-md-6">
@@ -185,20 +213,21 @@
      <!------Begin of footer section----->
      <footer>
          <div class="row">
-             <div class="col-1">
-                 <p><a href="mailto:inspirestemnyc@gmail.com">
-                  inspirestemnyc@gmail.com</a></p>
+             <div class="col-md-4">
+             <p>Email:</p> 
+             <p><a href="mailto: inspirestemnyc@gmail.com">inspirestemnyc@gmail.com</a></p>
              </div>
-             <div class="col-2">
+              <div class="col-md-4">
                 <address>
-            <p>InspireSTEM NYC <br>
-                PoBox 176 <br>
-                   New York, New York<br>
-                    USA</p> 
+                    <p>Address:</p>
+            <p>InspireSTEM NYC</p>
+                <p>Po Box 176</p>
+                   <p>New York, NY, 10004</p>
                 </address>
              </div>
-             <div class="col-3">
-                 <p>(212)543-2422</p>
+             <div class="col-md-4">
+                 <p>Phone Number:</p>
+                 <p>(212) 543-2422</p>
              </div>
          </div>
     </footer>

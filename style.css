@@ -1,38 +1,44 @@
 body{
     background-color: #0000;
     font-family: 'Cousine', monospace;
+    text-align:center;
 }
 
 .nav-link{
     font-weight: lighter;
 }
-
+.aboutus h1{
+    text-align:center;
+}
 .nav-link:hover{
     font-weight:bolder;
     background-color: #eee;
 }
 
 header{ 
-    height: 600px;
+    height: 650px;
     width: 100%;
     text-align: center;
     color: black;
     background-image:url("codingclass.jpg");
-    background-size:cover;
-    opacity: 0.7
+    background-size: cover;
 }
 
-header p{
-    font-size: 30px;
-}
 
 header h1{
     font-size: 100px;
-    
+    text-shadow: 0 0 20px #fff;
+}
+
+.aboutus{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
 }
 
 .results{
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     font-size: 15px;
 }
@@ -41,13 +47,15 @@ header h1{
 }
 
 .getinvolved {
-    background-color: #DFE4E7;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    background-color: lightgray;
     width: 100%;
     text-align: center;
     /* adds padding on top and bottom*/
+    margin-top: 50px;
+    margin-bottom: 80px;
     padding: 50px 0 80px;
+    
+    
 }
 
 .getinvolved h2{
@@ -58,7 +66,6 @@ header h1{
     padding: 30px;
     margin: 10px;
     border: 1px solid #ccc;
-    
     background-color: #fff;
     border-radius: 5px;
     margin-top: 30px;
@@ -71,7 +78,7 @@ header h1{
 }
 /*Team*/
 .team{
-    margin-top: 80px;
+    margin-top: 90px;
     margin-bottom: 80px;
     text-
     text-align: center;
@@ -84,12 +91,24 @@ header h1{
     border-radius: 50%;
     margin-bottom: 50px;
 }
+
+.partner{
+    
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+}
 .contact .btn{
+    margin-top: 30px;
      border-radius: 0;
      width: 100%;
      font-size: 15px;
 }
-
-.partner {
-    text-align: center;
+footer { 
+  margin-top: 50px;
+  display:block;
+  background-color:lightgray;
+  color: black;
+ 
 }
