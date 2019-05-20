@@ -5,6 +5,7 @@ body{
     font-size: 18px;
 }
 
+
 .nav-link{
     font-weight: lighter;
 }
@@ -14,6 +15,10 @@ body{
 .nav-link:hover{
     font-weight:bolder;
     background-color: #eee;
+}
+
+i {
+  margin-right: 10px;
 }
 
 header{ 
@@ -117,4 +122,45 @@ footer {
 
 .ourGenerousPartners p{
     font-size: 50px;
+}
+
+.servicesheading {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-image:url("codingclasskids.jpg");
+    background-size: cover;
+}
+
+.servicesheading{
+    font-size: 100px;
+    text-shadow: 0 0 20px #fff;
+}
+.aboutusservices {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-bottom: 30px
+}
+
+.aboutusservices i{
+    font-size: 30px;
+    padding: 10px 8px;
+    
+    /*change the color*/
+    color: #fff;
+    background-color: lightgray;
+    
+    /*resize contaner of icon*/
+    width: 50px;
+    height: 50px;
+    
+    /*make the container round*/
+    border-radius: 50%;
+}
+
+.aboutusservices span{
+    width: 80px;
+    display: inline-block; 
 }
