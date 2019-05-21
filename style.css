@@ -141,7 +141,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 80px;
     text-align: center;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 
 .aboutusservices i{
@@ -163,4 +163,75 @@ footer {
 .aboutusservices span{
     width: 80px;
     display: inline-block; 
+}
+
+.give {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-image:url("donate.jpg");
+    background-size: cover;
+}
+
+.give{
+    font-size: 100px;
+    text-shadow: 0 0 20px #fff;
+}
+
+.signupsheet {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-image:url("signup.jpeg");
+    background-size: cover;
+}
+
+.signupsheet{
+    font-size: 100px;
+    text-shadow: 0 0 20px #fff;
+}
+
+.volunteer {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-image:url("volunteersheet.jpg");
+    background-size: cover;
+}
+
+.volunteer{
+    font-size: 100px;
+    text-shadow: 0 0 20px #fff;
+}
+
+.learnmore {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-image:url("meeting.jpg");
+    background-size: cover;
+}
+
+.learnmore{
+    font-size: 100px;
+    text-shadow: 0 0 20px #fff;
+}
+
+.partners{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.partners img{
+    width: 250px;
+    height: 250px;
+    /*Object fit will crop and center image based on width and height*/
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 30px;
 }
